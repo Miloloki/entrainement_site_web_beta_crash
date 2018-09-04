@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('font/cac_champagne-webfont.eot');
+    src: url('font/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cac_champagne-webfont.woff2') format('woff2'),
+         url('font/cac_champagne-webfont.woff') format('woff'),
+         url('font/cac_champagne-webfont.ttf') format('truetype'),
+         url('font/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* J'aime les commentaires inutile*/
+body
+{
+	background:url("Dark_pattern.jpg")fixed no-repeat center;
+	color:white;
+}
+em
+{
+	color:green;	
+	font-size:medium;
+}
+h3
+{
+	color:red;
+	font-size:2em;
+}
+.selby
+{
+	color:#FA3;
+	font-style: italic;
+}
+.paragraphe_2
+{
+	color:rgb(163,73,164);
+	text-align: justify;
+	clear:right;
+}
+h1
+{
+	text-align:center;
+	font-family:'cac_champagneregular';
+	opacity: 0.5;
+	border-top: 5px grey dashed;
+	border-bottom:5px grey double;
+}
+.logo
+{ float:right; }
+mark
+{
+	background-color: red;	
+}
+a
+{
+	text-decoration: none;
+	color:purple;
+	font-style: italic;
+}
+a:active
+{
+	text-decoration:underline;
+	color:red;
+}
